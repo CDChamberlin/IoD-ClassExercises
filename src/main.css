@@ -11977,24 +11977,17 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-color: black;
+  background-color: #e9f1fa;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, .h1 {
-  color: rgb(255, 255, 255);
-}
-
 p {
-  color: red;
+  color: black;
 }
 
-/**{
-    box-sizing: border-box;
-}*/
 /* Styles the header*/
 header {
-  background-color: darkblue;
+  background-color: #00ABE4;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -12003,16 +11996,13 @@ header {
 
 /*Creates two colomns / boxes that float next to eachother */
 nav {
-  float: left;
-  width: 200px;
-  background: gold;
+  width: 50px;
   padding: 20px;
 }
 
 /* Styles the list insid the menu*/
 nav ul {
   list-style-type: none;
-  padding: 26px;
 }
 
 article {
@@ -12023,8 +12013,13 @@ article {
 
 /* Styles the footer */
 footer {
-  background-color: cyan;
+  background-color: #00ABE4;
   padding: 10px;
   text-align: center;
   color: white;
+}
+
+img {
+  min-width: 150px;
+  max-width: 100%;
 }
