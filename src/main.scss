@@ -1,19 +1,23 @@
+
+
+// Inclue any modificaitons to default
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 body {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 20, 133);
 }
 
 p {
     color: red;
 }
 
-*{
-    box-sizing: border-box;
-}
 
 /* Styles the header*/
 header{
@@ -26,8 +30,8 @@ header{
 
 /*Creates two colomns / boxes that float next to eachother */
 nav{
-    float: left;
-    width: 30%;
+    //float: left;
+    width: 200px;
     background: gold;
     padding: 20px;
 }
@@ -39,14 +43,10 @@ nav ul{
 }
 
 article{
-    float: left;
     padding: 20px;
-    width: 70%;
+    width: 400px;
     background-color: whitesmoke;
 }
-
-/* Clears float after columns */
-aside{ clear: both;}
 
 /* Styles the footer */
 footer{
