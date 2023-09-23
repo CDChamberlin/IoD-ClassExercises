@@ -48,13 +48,18 @@
           
           </div>
           <div class="row">
-            <label for="postal-code">ZIP or postal code (optional)</label>
-            <input class="postal-code" id="postal-code" name="postal-code" autocomplete="postal-code" enterkeyhint="next">
-          </div>
-          <div class="row">
             <label for="city">City</label>
             <input required type="text" id="city" name="city" autocomplete="address-level2" enterkeyhint="next">
           </div>
+          <div class="row">
+            <label for="state">State</label>
+            <input required type="text" id="state" name="state" autocomplete="address-level2" enterkeyhint="next">
+          </div>
+          <div class="row">
+            <label for="postal-code">ZIP or postal code (optional)</label>
+            <input class="postal-code" id="postal-code" name="postal-code" autocomplete="postal-code" enterkeyhint="next">
+          </div>
+          
           <div class="row"><button onclick="Ordered()">Order Now</button></div>
       </form>
       </div>
