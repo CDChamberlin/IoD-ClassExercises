@@ -63,7 +63,7 @@ if (check>3){
 
 let mountains = ["Everest", "Fuji", "Nanga Parbat"]
 
-let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'], ;
+let seas = ['Black Sea', 'Caribbean Sea', 'North Sea', 'Baltic Sea'] ;
 // console.log(seas);
 seas.push('Red Sea'); // adds to the end of the array
 // console.log(seas);
@@ -86,3 +86,59 @@ oceans[1] = "Red Sea";
 oceans[4] = "Black Sea";
 
 console.dir(oceans)
+
+
+/*
+    Working with JSON objects
+*/
+
+const user = {
+    "first_name" : "Sammy",
+    "last_name" : "Shark",
+    "age" : 25,
+    "followers" : 987
+    }
+    console.log(user["first_name"]);
+    console.log(user["age"])
+
+/*
+    JSON Exercise
+    
+    • Try creating a json object for BOOK, the book should have a title,  
+    description, author and number of pages
+    
+    • Try printing these values in your console
+*/
+
+const book = {
+    "title" : "Wolf of the Blood Moon: A Blood Magic Lycanthrope LitRPG",
+    "description" : `When a Demonic Assault occurs, most people stuck inside of a Fracture end up hiding inside of a bunker in the hopes that they don’t end up killed by a demon.
+    Others might even hope for the slightest possible chance at signing a contract with a spirit and becoming a Guardian.
+    What they don’t expect is to become a demon themselves.
+    
+    Exactly two centuries ago, humanity was struck with their very first Demonic Assault.
+    The skies above the capital of the US, shattering as if made of glass; demons of all kinds appearing out of nowhere; and no way to effectively stop them before the end of the Assault.
+    
+    On the brink of devastation, some of the humans managed to find themselves offered a contract whilst inside of a Fracture.
+    Who these beings are that are offering these contracts, the humans don’t know. Nor do they care.
+    All they care about is that by becoming a Guardian, they were offered a chance.
+    A chance to rebuild.
+    A chance at life.
+    
+    And, in the case of those Guardians, a chance at power, fame, and fortune.
+    
+    Now, long after every nation of the world joined together to form the Terran Republic, Scarlet finds herself stuck trying to find a university from the Republic’s capital that will accept someone from a lower tier city into their midst.
+    But, as if that wasn’t already enough trouble for one person to bear, she somehow ends up stuck in one of the Fractures of a Demonic Assault while visiting her father figure’s company building.
+    
+    However, she doesn't perish in the darkness and rather awakens her dormant bloodline as a noble demon.
+    A Blood Lycan.
+    
+    Turns out she had been a demon all along and had literally been born for the apocalypse.`,
+    "author" : "WolfShine",
+    "page_count" : 2181,
+    "src" : `https://www.royalroad.com/fiction/65324/wolf-of-the-blood-moon-a-blood-magic-lycanthrope`
+}
+
+console.dir(book["title"])
+console.dir(book["author"])
+console.dir(book["page_count"])
