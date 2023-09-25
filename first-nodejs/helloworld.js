@@ -37,3 +37,14 @@ console.log(division(20, 4))
 function Greet(A){
     return ("Hello " + A)
 }
+
+console.log(Greet("Robert"));
+/*
+    NPM Practice with Sentiment Module
+*/
+
+const Sentiment = require('sentiment')
+const sentiment = new Sentiment()
+const result = sentiment.analyze("Cats are clever and stupid.")
+console.dir(result)
+
